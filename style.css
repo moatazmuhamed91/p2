@@ -116,3 +116,14 @@ nav ul li a:hover {
     clip-path: circle(50% at right);
   }
 }
+.trending-container{
+    padding: 25px 50px;
+}
+.trending-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-header h1{
+    margin-top: 0;
+}
