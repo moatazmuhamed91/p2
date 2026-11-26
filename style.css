@@ -48,7 +48,7 @@ nav {
 nav .logo {
   color: #fff;
   text-decoration: none;
-  font-size: 34px;
+  font-size: 32px;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 700;
@@ -80,7 +80,7 @@ nav ul li a:hover {
   width: 40%;
 }
 .content .text h2 {
-  font-size: 35px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
@@ -114,6 +114,13 @@ nav ul li a:hover {
   body::after{
     clip-path: circle(50% at right);
   }
+  .main {
+  height: auto;
+  padding-bottom: 30px;
+}
+.content {
+  height: auto;
+}
 }
 .trending-container{
     padding: 25px 50px;
@@ -164,4 +171,14 @@ nav ul li a:hover {
 }
 .btn:hover {
   background: #3f1010;
+}
+.card-info p {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.card-info h3 {
+  font-size: 18px;
+}
+.trending-header h1 {
+  font-size: 32px;
 }
