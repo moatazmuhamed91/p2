@@ -40,3 +40,23 @@ nav .logo{
     font-size: 32px;
     text-transform: uppercase;
 }
+nav ul il{
+    display: inline-block;
+    margin: 0 6px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: #3f1010;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
